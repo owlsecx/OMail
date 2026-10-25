@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Professional-grade authorised phishing simulation &
+OMail is an authorised phishing-simulation and security-awareness testing platform. It supports SMTP multi-provider send (STARTTLS/SSL), HTML/plain templates, bulk campaigns, attachments, profile management, variable injection, dry-run, rate limiting, and JSON/CSV/TXT campaign reports. The tool is interactive (menu-driven) and intended only for authorised awareness exercises.
 
 ---
 
 ## ✨ Features
 
-- SMTP simulation with dry-run default and SPF/DKIM/DMARC advisory — authorised testing only
+- SMTP multi-provider delivery with STARTTLS/SSL and retry logic
+- HTML and plain-text templates with variable injection and plugin templates
+- Bulk send with attachment support and rate limiting
+- Profile manager with persistent config and interactive setup
+- Campaign tracker with JSON / CSV / TXT report export
+- Dry-run mode for safe rehearsal before live authorised sends
 
 ---
 
@@ -39,6 +44,7 @@ Professional-grade authorised phishing simulation &
 
 ```bash
 ./OMail
+./OMail --help
 ```
 
 ---
